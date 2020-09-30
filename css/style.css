@@ -7,6 +7,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 .promo {
@@ -118,12 +119,13 @@ h2.title {
 }
 
 .waiting {
-    height: 604px;
+    min-height: 604px;
     padding: 85px 0 75px 0;
     background-color: #efefef;
 }
 
-.waiting .waiting_header{
+.waiting .waiting_header,
+.finish .finish_header {
     color: #252525;
     font-family: Roboto, serif;
     font-size: 30px;
@@ -132,14 +134,19 @@ h2.title {
     text-align: center;
 }
 
-.waiting .waiting_divider{
+.finish .finish_header{
+    color: white;
+}
+
+.waiting .waiting_divider,
+.finish .finish_divider {
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
     margin: 18px auto 0;
 }
 
-.waiting .waiting_subheader{
+.waiting .waiting_subheader {
     margin-top: 17px;
     color: #4a4a4a;
     font-family: Roboto, serif;
@@ -149,26 +156,106 @@ h2.title {
     text-align: center;
 }
 
-.waiting .waiting_wrapper{
+.waiting .waiting_wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 45px;
 }
 
-.waiting .waiting_wrapper .waiting_item{
+.waiting .waiting_wrapper .waiting_item {
     vertical-align: top;
     width: 340px;
     text-align: center;
 }
 
-.waiting .waiting_wrapper .waiting_item .waiting_img{
+.waiting .waiting_wrapper .waiting_item .waiting_img {
     width: 100%;
 }
 
-.waiting .waiting_wrapper .waiting_item .waiting_descr{
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 23px;
     color: #4a4a4a;
     font-family: Roboto, serif;
     font-size: 15px;
     font-weight: 300;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 106px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 390px;
+    color: #299cbd;
+    font-family: "Roboto - Black", serif;
+    font-size: 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 390px;
+    color: #4a4a4a;
+    font-family: Roboto, serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.optimization .optimization_text span {
+    font-family: Roboto, serif;
+    font-weight: bold;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: 0;
+    left: -130px;
+    z-index: -1;
+}
+
+.finish{
+    min-height: 448px;
+    padding: 86px 0 78px 0;
+    background-image: url("../img/bg/finish_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finish .finish_wrapper{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_round{
+    width: 114px;
+    height: 114px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.finish .finish_wrapper .finish_icon{
+    width: 114px;
+    height: 114px;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-family: Roboto, serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
 }
