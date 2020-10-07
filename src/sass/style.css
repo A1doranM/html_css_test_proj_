@@ -33,7 +33,7 @@ nav {
 }
 .menu_link:hover {
   text-decoration: none;
-  color: #1eeec7;
+  color: #1eacc7;
 }
 .menu_item {
   border-right: 2px dotted black;
@@ -90,7 +90,7 @@ nav {
   box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
   border: none;
   border-radius: 4px;
-  background-image: linear-gradient(to top, #1eeec7 0%, #4ce2ff 100%);
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
   color: #ffffff;
   font-size: 14px;
@@ -99,7 +99,7 @@ nav {
 }
 .subheader_btn:hover {
   background-image: none;
-  background-color: #1eeec7;
+  background-color: #1eacc7;
 }
 
 .promo {
@@ -142,7 +142,7 @@ nav {
   box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
   border: none;
   border-radius: 4px;
-  background-image: linear-gradient(to top, #1eeec7 0%, #4ce2ff 100%);
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
   color: #ffffff;
   font-size: 18px;
@@ -151,7 +151,7 @@ nav {
 }
 .promo_btn:hover {
   background-image: none;
-  background-color: #1eeec7;
+  background-color: #1eacc7;
 }
 
 .reasons {
@@ -170,7 +170,7 @@ nav {
   margin-right: 26px;
   width: 113px;
   height: 113px;
-  background-color: #1eeec7;
+  background-color: #1eacc7;
   border-radius: 100%;
 }
 .reasons_descr {
@@ -178,7 +178,7 @@ nav {
 }
 .reasons_subtitle {
   line-height: 21px;
-  color: #1eeec7;
+  color: #1eacc7;
   font-size: 17px;
   font-weight: 400;
 }
@@ -302,7 +302,7 @@ nav {
   display: block;
   width: 14px;
   height: 2px;
-  background-color: #1eeec7;
+  background-color: #1eacc7;
   transition: 0.3s all;
 }
 .mobile_item_plus:after {
@@ -313,7 +313,7 @@ nav {
   display: block;
   height: 14px;
   width: 2px;
-  background-color: #1eeec7;
+  background-color: #1eacc7;
   transition: 0.3s all;
 }
 .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
@@ -800,7 +800,7 @@ footer a:hover {
     margin-top: 6px;
   }
   .subheader_btn:hover {
-    background-image: linear-gradient(to top, #1eeec7 0%, #4ce2ff 100%);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   }
 
   .promo {
@@ -828,7 +828,7 @@ footer a:hover {
     font-size: 16px;
   }
   .promo_btn:hover {
-    background-image: linear-gradient(to top, #1eeec7 0%, #4ce2ff 100%);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
   }
 
   .menu {
@@ -890,7 +890,7 @@ footer a:hover {
     bottom: 28px;
   }
   .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
-    background-color: #1eeec7;
+    background-color: #1eacc7;
   }
 
   .choice {
