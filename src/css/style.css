@@ -687,7 +687,7 @@ footer a:hover {
   .hamburger_active span {
     margin-bottom: -2px;
   }
-  .hamburger_active span:nth-child(1) {
+  .hamburger_active span:first-child(1) {
     transform: translateY(3px) rotate(-45deg);
   }
   .hamburger_active span:nth-child(2) {
